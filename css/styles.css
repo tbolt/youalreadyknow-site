@@ -41,7 +41,7 @@ p {
   line-height: 1.5;
 }
 a {
-  color: #5bb66f;
+  color: #FFAC46;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -76,8 +76,8 @@ a.btn {
 }
 a.btn-primary,
 .btn-primary {
-  background: #5bb66f;
-  border: 2px solid #5bb66f;
+  background: #FFAC46;
+  border: 2px solid #FFAC46;
   color: #fff;
   text-transform: uppercase;
   -webkit-box-shadow: inset 0 0 0 0 #3d884d;
@@ -107,9 +107,9 @@ a.btn-secondary,
   border: 2px solid #1c1d21;
   color: #fff;
   text-transform: uppercase;
-  -webkit-box-shadow: inset 0 0 0 0 #5bb66f;
-  -moz-box-shadow: inset 0 0 0 0 #5bb66f;
-  box-shadow: inset 0 0 0 0 #5bb66f;
+  -webkit-box-shadow: inset 0 0 0 0 #FFAC46;
+  -moz-box-shadow: inset 0 0 0 0 #FFAC46;
+  box-shadow: inset 0 0 0 0 #FFAC46;
 }
 a.btn-secondary:hover,
 .btn-secondary:hover {
@@ -131,29 +131,29 @@ a.btn-secondary:focus,
 a.btn-ghost-primary,
 .btn-ghost-primary {
   background: none;
-  border: 2px solid #5bb66f;
-  color: #5bb66f;
-  -webkit-box-shadow: inset 0 0 0 0 #5bb66f;
-  -moz-box-shadow: inset 0 0 0 0 #5bb66f;
-  box-shadow: inset 0 0 0 0 #5bb66f;
+  border: 2px solid #FFAC46;
+  color: #FFAC46;
+  -webkit-box-shadow: inset 0 0 0 0 #FFAC46;
+  -moz-box-shadow: inset 0 0 0 0 #FFAC46;
+  box-shadow: inset 0 0 0 0 #FFAC46;
   text-transform: uppercase;
 }
 a.btn-ghost-primary:active,
 .btn-ghost-primary:active,
 a.btn-ghost-primary:focus,
 .btn-ghost-primary:focus {
-  border: 2px solid #5bb66f;
-  color: #5bb66f;
+  border: 2px solid #FFAC46;
+  color: #FFAC46;
   outline: none;
 }
 a.btn-ghost-primary:hover,
 .btn-ghost-primary:hover {
-  -webkit-box-shadow: inset 0 100px 0 0 #5bb66f;
-  -moz-box-shadow: inset 0 100px 0 0 #5bb66f;
-  box-shadow: inset 0 100px 0 0 #5bb66f;
-  background: #5bb66f;
+  -webkit-box-shadow: inset 0 100px 0 0 #FFAC46;
+  -moz-box-shadow: inset 0 100px 0 0 #FFAC46;
+  box-shadow: inset 0 100px 0 0 #FFAC46;
+  background: #FFAC46;
   color: #fff;
-  border: 2px solid #5bb66f;
+  border: 2px solid #FFAC46;
 }
 a.btn-ghost-secondary,
 .btn-ghost-secondary {
@@ -233,7 +233,7 @@ label {
   margin-bottom: 30px;
 }
 .highlight {
-  color: #5bb66f;
+  color: #FFAC46;
 }
 #topcontrol {
   -webkit-transition: all 0.4s ease-in-out;
@@ -279,7 +279,7 @@ label {
   display: inline-block;
   height: 4px;
   width: 60px;
-  background: #5bb66f;
+  background: #FFAC46;
   position: absolute;
   left: 50%;
   bottom: -5px;
@@ -339,7 +339,7 @@ label {
   float: left;
 }
 .navbar-toggle .icon-bar {
-  background-color: #5bb66f;
+  background-color: #FFAC46;
   height: 3px;
   -webkit-opacity: 0.8;
   -moz-opacity: 0.8;
@@ -377,7 +377,7 @@ label {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer a {
-  color: #5bb66f;
+  color: #FFAC46;
 }
 .footer a:hover {
   color: #449a57;
@@ -387,7 +387,7 @@ label {
 }
 /* ======= Promo Section ======= */
 .vegas-timer-progress {
-  background: #5bb66f;
+  background: #FFAC46;
 }
 .promo-section {
   height: 100%;
@@ -553,21 +553,21 @@ label {
   color: #fff;
 }
 .updates-block .carousel-content .desc a.more-link {
-  color: #5bb66f;
+  color: #FFAC46;
   vertical-align: middle;
 }
 .updates-block .carousel-content .desc a.more-link:hover {
   color: #449a57;
 }
 .updates-block .carousel-content .highlight {
-  color: #5bb66f;
+  color: #FFAC46;
 }
 .countdown-box {
   font-size: 16px;
 }
 .countdown-box .number {
   font-weight: 700;
-  color: #5bb66f;
+  color: #FFAC46;
   font-size: 24px;
 }
 .countdown-box .unit {
@@ -623,7 +623,7 @@ label {
 }
 .gigs-section .meta-list .fa {
   margin-right: 5px;
-  color: #5bb66f;
+  color: #FFAC46;
   font-size: 16px;
 }
 .gigs-section .gig-actions {
@@ -729,7 +729,7 @@ label {
   position: absolute;
   left: -10px;
   top: 0;
-  background: #5bb66f;
+  background: #FFAC46;
   color: #fff;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
@@ -905,7 +905,7 @@ label {
   color: rgba(255, 255, 255, 0.75);
 }
 .contact-section a:hover {
-  color: #5bb66f;
+  color: #FFAC46;
 }
 .contact-section .section-title {
   margin-bottom: 30px;
@@ -936,7 +936,7 @@ label {
 }
 .contact-section .contact-block .fa {
   margin-right: 5px;
-  color: #5bb66f;
+  color: #FFAC46;
   font-size: 24px;
 }
 .contact-section .channels-list {
@@ -1074,7 +1074,7 @@ label {
     box-shadow: none;
   }
   .nav > li.active > a {
-    color: #5bb66f;
+    color: #FFAC46;
   }
   .promo-section {
     min-height: 900px;
@@ -1311,7 +1311,7 @@ body {
   border: 2px solid #fff;
 }
 .config-panel #color-options li.theme-1 a {
-  background: #5bb66f;
+  background: #FFAC46;
 }
 .config-panel #color-options li.theme-2 a {
   background-color: #2696C2;
