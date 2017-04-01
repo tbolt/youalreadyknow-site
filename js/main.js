@@ -43,11 +43,11 @@ $(document).ready(function() {
             { src: 'images/hero/hero-1.jpg' },
             { src: 'images/hero/hero-2.jpg' },
             { src: 'images/hero/hero-3.jpg' },
-            { src: 'images/hero/hero-4.jpg' },
-            { src: 'images/hero/hero-5.jpg' },
-            { src: 'images/hero/hero-6.jpg' },
-            { src: 'images/hero/hero-7.jpg' },
-            { src: 'images/hero/hero-8.jpg' }
+            // { src: 'images/hero/hero-4.jpg' },
+            // { src: 'images/hero/hero-5.jpg' },
+            // { src: 'images/hero/hero-6.jpg' },
+            // { src: 'images/hero/hero-7.jpg' },
+            // { src: 'images/hero/hero-8.jpg' }
         ]
     });
 
