@@ -1077,13 +1077,16 @@ label {
     color: #FFAC46;
   }
   #promo {
-    height: auto !important;
+    height: auto;
+    max-height: auto;
+    min-height: auto;
+    padding-bottom: 0;
   }
   .vegas-timer {
     display: none;
   }
   .vegas-wrapper {
-    height: 450px;
+    min-height: 450px;
   }
   .vegas-slide {
     max-height: 450px;
