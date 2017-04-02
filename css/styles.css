@@ -1076,8 +1076,20 @@ label {
   .nav > li.active > a {
     color: #FFAC46;
   }
+  #promo {
+    height: auto !important;
+  }
+  .vegas-timer {
+    display: none;
+  }
+  .vegas-wrapper {
+    height: 450px;
+  }
+  .vegas-slide {
+    max-height: 450px;
+  }
   .promo-section {
-    min-height: 900px;
+    min-height: 660px;
   }
   .promo-content {
     padding-top: 0px;
