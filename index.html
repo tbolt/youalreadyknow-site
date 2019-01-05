@@ -27,407 +27,277 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body data-spy="scroll">
-    <header id="header" class="header navbar-fixed-top">
-        <div class="container ">
-            <nav class="main-nav" role="navigation">
-                <div class="navbar-header text-center">
-                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="toggle-title">Menu</span>
-                        <span class="icon-bar-wrapper">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </span>
-                    </button>
-                </div>
-                <div id="navbar-collapse" class="navbar-collapse collapse text-center">
-                    <ul class="nav navbar-nav center-block">
-                        <li class="nav-item"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#gigs">Shows</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#music">Music</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#photos">Photos</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#about">Band</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
+  <header id="header" class="header navbar-fixed-top">
+    <div class="container ">
+      <nav class="main-nav" role="navigation">
+        <div class="navbar-header text-center">
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="toggle-title">Menu</span>
+            <span class="icon-bar-wrapper">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </span>
+          </button>
         </div>
-    </header>
-
-    <section id="promo" class="promo-section section">
-        <div class="container text-center promo-content">
-            <div class="upper-wrapper">
-                <h2 class="headline">You Already Know</h2>
-                <!-- <div class="tagline">Makers of music</div> -->
-            </div>
-        </div><!--//container-->
-        <div class="updates-block">
-            <div class="container updates-block-inner">
-                <div id="carousel-updates" class="carousel slide" data-ride="carousel" data-interval="6000">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div class="media-holder">
-                                <div class="media-thumb">
-                                    <img src="images/ep-promo.png" alt="yak logo image">
-                                </div>
-                            </div><!--//media-holder-->
-                            <div class="carousel-content">
-                                <h3 class="title">New EP now available!</h3>
-                                <div class="desc">
-                                    <!-- <div class="countdown">
-                                        <span id="countdown-box" class="countdown-box"></span>till release
-                                    </div><!--//countdown-->
-                                    <p class="intro">
-                                        Checkout our debut EP on Spotify, iTunes, Google Play, Amazon Music, and most other major services.
-                                    </p><!--//intro-->
-                                </div><!--//desc-->
-                            </div><!--//content-container-->
-                        </div><!--//item-->
-                      <!--  <div class="item">
-                            <div class="carousel-content no-media-holder">
-                                <h3 class="title">New show announcement <a class="highlight" href="#">The Metro Gallery, Baltimore</a></h3>
-                                <div class="desc">
-                                    <p class="intro">
-                                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. <br><a href="#" class="more-link" data-toggle="modal" data-target="#modal-info">Find out more</a> -->
-                                    <!-- </p>//intro -->
-                                <!-- </div>//desc -->
-                                <!-- <a class="btn btn-primary btn-cta" href="#">Buy Tickets</a> -->
-                            <!-- </div>//content-container -->
-                        <!-- </div>//item  -->
-                        <div class="item">
-                            <div class="media-holder">
-                                <div class="media-thumb">
-                                    <img src="images/ep-promo.png" alt="yak logo image">
-                                    <a id="video-play-triggger" class="video-play-trigger" data-toggle="modal" data-target="#modal-video"><i class="fa fa-play"></i></a>
-                                </div>
-                            </div><!--//media-holder-->
-                            <div class="carousel-content">
-                                <h3 class="title">Practice session: Sneakin'</a></h3>
-                                <div class="desc">
-                                    <p class="intro">
-                                        <br><a href="#" class="more-link" data-toggle="modal" data-target="#modal-video">Check it out!</a>
-                                    </p>
-                                </div>
-                            <!--  <a class="btn btn-primary btn-cta" href="#">Buy Tickets</a> -->
-                            </div><!--//content-container-->
-                        </div><!--//item-->
-                    </div><!--//carousel-inner-->
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-updates" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-updates" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </div><!--//carousel-updates-->
-            </div><!--//container-->
-        </div><!--//updates-block-->
-    </section><!--//promo-section-->
-
-    <section id="gigs" class="gigs-section section">
-        <div class="container">
-            <h2 class="section-title text-center">Upcoming Shows</h2>
-             <!-- no shows start -->
-            <div class="gigs-container no-shows">
-            <h3 style="text-align: center">No upcoming shows. Check back soon.</h3>
-            </div>
-
-
-
-<!--             Single show start
-             <div class="gigs-container">
-                <div class="item">
-                    <div class="date-label">
-                        <div class="number">7</div>
-                        <div class="month">Nov</div>
-                    </div>
-                    <div class="gig-info">
-                        <div class="info-content">
-                            <h3 class="gig-title">8x10</h3>
-                            <div class="meta">
-                                <ul class="meta-list list-inline">
-                                    <li class="location">
-                                        <i class="fa fa-map-marker"></i><a href="https://goo.gl/maps/aE6oa1w9TRT2">8x10 - Baltimore, MD</a>
-                                    </li>
-                                    <li class="time">
-                                        <i class="fa fa-clock-o"></i>7:30pm, Wednesday
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="gig-actions">
-                              <a class="btn btn-xs btn-secondary" href="https://www.facebook.com/events/269019080381620/">More Info</a>
-                             <a class="btn btn-xs btn-secondary" href="https://www.mt.cm/j-wail-live-bandfeaturing-vince-herman-leftover-salmon-kito-particle">Buy Tickets</a>
-                        </div>
-
-                       <div id="info-extra-1" class="collapse info-extra">
-                            Come camp out and join You Already know for night 1 of 2 at Camp Ramblewood park in Darlington, MD. For more information about the BBB Festival, check out this link.
-                        </div>
-                    </div>
-                </div> -->
-              <!--  single show end -->
-<!--                 <div class="item">
-                    <div class="date-label">
-                        <div class="number">29</div>
-                        <div class="month">April</div>
-                    </div>
-                    <div class="gig-info">
-                        <div class="info-content">
-                            <h3 class="gig-title">Camp Ramblewood</h3>
-                            <div class="meta">
-                                <ul class="meta-list list-inline">
-                                    <li class="location">
-                                        <i class="fa fa-map-marker"></i><a href="https://goo.gl/maps/u6TAZRkvgfL2">Ramblewood Park, Darlington</a>
-                                    </li>
-                                    <li class="time">
-                                        <i class="fa fa-clock-o"></i>8:00pm, Saturday
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="gig-actions">
-                            <a class="btn btn-xs btn-ghost-secondary" data-toggle="collapse" href="#info-extra-1" aria-expanded="false" aria-controls="info-extra-1" >More info</a>
-                             <a class="btn btn-xs btn-secondary" href="#">Buy Tickets</a>
-                        </div>
-                        <div id="info-extra-1" class="collapse info-extra">
-                            Come camp out and join You Already know for night 2 of 2 at Camp Ramblewood park in Darlington, MD. For more information about the BBB Festival, check out this link.
-                        </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="date-label">
-                        <div class="number">5</div>
-                        <div class="month">May</div>
-                    </div>
-                    <div class="gig-info">
-                        <div class="info-content">
-                            <h3 class="gig-title">Metro Gallery</h3>
-                            <div class="meta">
-                                <ul class="meta-list list-inline">
-                                    <li class="location">
-                                        <i class="fa fa-map-marker"></i><a href="https://goo.gl/maps/dRcf3rX1b8Q2">The Metro Gallery Baltimore</a>
-                                    </li>
-                                    <li class="time">
-                                        <i class="fa fa-clock-o"></i>8:00pm, Friday
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="gig-actions">
-                            <a class="btn btn-xs btn-ghost-secondary" data-toggle="collapse" href="#info-extra-1" aria-expanded="false" aria-controls="info-extra-1" >More info</a>
-                             <a class="btn btn-xs btn-secondary" href="#">Buy Tickets</a>
-                        </div>
-                        <div id="info-extra-1" class="collapse info-extra">
-                            Come camp out and join You Already know for night 2 of 2 at Camp Ramblewood park in Darlington, MD. For more information about the BBB Festival, check out this link.
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-            <div class="gigs-contact text-center">
-                <h4 class="title">Interested in booking?</h4>
-                <!-- <p class="intro center-block">Feel free to drop us a line about any booking inquiries</p> -->
-                <a class="btn btn-ghost-primary scrollto" href="#contact">Get in touch</a>
-            </div><!--//gigs-->
-        </div><!--//container-->
-    </section><!--//gigs-section-->
-
-    <section id="music" class="music-section section text-center">
-        <div class="container">
-            <h2 class="section-title">Music</h2>
-            <div class="social-media-block">
-              <h4>Find us on your favorite music service</h4>
-                <ul class="list-inline">
-                    <li><a href="https://www.youtube.com/channel/UCw5Q0r8O3-LRhwRJL0rgFPQ"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="https://soundcloud.com/you-already-know"><i class="fa fa-soundcloud"></i></a></li>
-                    <li><a href="https://open.spotify.com/artist/366gMbRrs2zjK4zHS6abfC?si=kwWkX2hkSHy5tUXsJ_bVDg&nd=1"><i class="fa fa-spotify"></i></a></li>
-                </ul>
-            </div><!--//social-media-block-->
-            <div class="sc-block center-block">
-                <iframe width="100%" height="350" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/678676449&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-            </div><!--//sc-block-->
-            <div class="music-action">
-                <a class="btn btn-ghost-primary" href="https://soundcloud.com/you-already-know">More Music on Soundcloud</a>
-            </div>
-        </div><!--//container-->
-    </section><!--//music-section-->
-
-    <section id="photos" class="photos-section section">
-      <div class="container">
-        <a href="images/image-thumb-1.jpg">
-          <img src="images/image-thumb-1.jpg">
-        </a>
-      </div>
-    </section>
-
-    <section id="about" class="about-section section text-center">
-        <div class="container">
-            <h2 class="section-title">Band</h2>
-            <div class="section-intro center-block"><p>You Already Know is a project that was born in 2011. Starting at local bars and quickly moving on to play popular Baltimore venues including 8x10, Ottobar, and The Metro Gallery. The group has since supported several national and regional acts and were featured on 98 Rock radio.</p><p>Each live show is filled with fresh originals and a wide range of covers from artists like the Grateful Dead, Daft Punk, the Allman Brothers, and many more.</p>
-            </div>
-            <div class="members-block">
-                <div class="row">
-                    <div class="item col-md-4">
-                        <div class="item-inner">
-                            <div class="member-profile">
-                                <img class="img-responsive" src="images/members/yianni.png" alt="">
-                            </div><!--//member-profile-->
-                            <div class="member-label">Guitar</div>
-                            <h3 class="member-name">
-                                Yianni Karavasilis
-                            </h3>
-                            <div class="member-desc">
-                                Crushing lead guitar and rythmic melodies.
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                    <div class="item col-md-4">
-                        <div class="item-inner">
-                            <div class="member-profile">
-                                <img class="img-responsive" src="images/members/nik.png" alt="">
-                            </div><!--//member-profile-->
-                            <div class="member-label">Bass</div>
-                            <h3 class="member-name">
-                                Nik Kosmas
-                            </h3>
-                            <div class="member-desc">
-                                Bass guitar and soothing vocals.
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                    <div class="clearfix visible-xs"></div>
-                    <div class="item col-md-4">
-                        <div class="item-inner">
-                            <div class="member-profile">
-                                <img class="img-responsive" src="images/members/matt.png" alt="">
-                            </div><!--//member-profile-->
-                            <div class="member-label">Guitar</div>
-                            <h3 class="member-name">
-                                Matt Winter
-                            </h3>
-                            <div class="member-desc">
-                                Smooth rythms, clean leads, and vocals.
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                    <div class="item col-md-4">
-                        <div class="item-inner">
-                            <div class="member-profile">
-                              <img class="img-responsive" src="images/members/bill.png" alt="">
-                            </div><!--//member-profile-->
-                            <div class="member-label">Drums</div>
-                            <h3 class="member-name">
-                                Bill Matsos
-                            </h3>
-                            <div class="member-desc">
-                                Drums.
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                    <div class="item col-md-4">
-                        <div class="item-inner">
-                            <div class="member-profile">
-                                <img class="img-responsive" src="images/members/ty.png" alt="">
-                            </div><!--//member-profile-->
-                            <div class="member-label">Keyboards</div>
-                            <h3 class="member-name">
-                                Ty Bolchoz
-                            </h3>
-                            <div class="member-desc">
-                                E. Piano, Acoustic Piano, Organ & Clavinet
-                            </div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                </div><!--//row-->
-            </div><!--//members-block-->
-        </div><!--//container-->
-    </section><!--//about-section-->
-
-    <div id="contact" class="contact-section section text-center">
-        <div class="container">
-            <h2 class="section-title">Contact</h2>
-            <div class="section-intro center-block">Feel free to drop us a line about booking or other opportunities.</div>
-            <div class="contact-block center-block">
-                <div class="row">
-
-                    <div class="item col-xs-12 col-md-4">
-                        <div class="item-inner">
-                            <div class="icon-holder">
-                                <i class="fa fa-info-circle"></i>
-                            </div><!--//icon-holder-->
-                            <h4 class="title">General</h4>
-                            <div class="email"><a href="mailto:info@youalreadyknow.me">info@youalreadyknow.me</a></div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-
-                    <div class="item col-xs-12 col-md-4">
-                        <div class="item-inner">
-                            <div class="icon-holder">
-                                <i class="fa fa-calendar-check-o"></i>
-                            </div><!--//icon-holder-->
-                            <h4 class="title">Booking</h4>
-                            <div class="email"><a href="mailto:info@youalreadyknow.me">info@youalreadyknow.me</a></div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-
-                    <div class="item col-xs-12 col-md-4">
-                        <div class="item-inner">
-                            <div class="icon-holder">
-                                <i class="fa fa-newspaper-o"></i>
-                            </div><!--//icon-holder-->
-                            <h4 class="title">Press</h4>
-                            <div class="email"><a href="mailto:info@youalreadyknow.me">info@youalreadyknow.me</a></div>
-                        </div><!--//item-inner-->
-                    </div><!--//item-->
-                </div><!--//row-->
-            </div><!--//contact-list-->
-
-            <!-- <div class="channels-block">
-                <ul class="channels-list list-inline">
-                    <li><a href="#"><img class="icon" src="images/itunes.svg" alt=""></a></li>
-                    <li><a href="#"><img class="icon" src="images/vevo.svg" alt=""></a></li>
-                    <li><a href="#"><img class="icon" src="images/bandcamp.svg" alt=""></a></li>
-                </ul>
-            </div>-->
-            <div class="social-media-block">
-                <ul class="list-inline social-media-list">
-                    <li><a href="https://www.youtube.com/channel/UCw5Q0r8O3-LRhwRJL0rgFPQ"><i class="fa fa-youtube"></i></a></li>
-                    <li><a href="https://soundcloud.com/you-already-know"><i class="fa fa-soundcloud"></i></a></li>
-                    <li><a href="https://open.spotify.com/artist/366gMbRrs2zjK4zHS6abfC?si=kwWkX2hkSHy5tUXsJ_bVDg&nd=1"><i class="fa fa-spotify"></i></a></li>
-                    <li><a href="https://www.facebook.com/YAlreadyK"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="https://www.instagram.com/yak_band/"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-            </div><!--//social-media-block-->
-        </div><!--//containter-->
+        <div id="navbar-collapse" class="navbar-collapse collapse text-center">
+          <ul class="nav navbar-nav center-block">
+            <li class="nav-item"><a class="scrollto" href="#promo">Home</a></li>
+            <li class="nav-item"><a class="scrollto" href="#gigs">Shows</a></li>
+            <li class="nav-item"><a class="scrollto" href="#music">Music</a></li>
+            <li class="nav-item"><a class="scrollto" href="#photos">Photos</a></li>
+            <li class="nav-item"><a class="scrollto" href="#about">Band</a></li>
+            <li class="nav-item"><a class="scrollto" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
+  </header>
 
-    <!-- Video Modal -->
-    <div class="modal modal-video" id="modal-video" tabindex="-1" role="dialog" aria-labelledby="videoModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 id="videoModalLabel" class="modal-title sr-only">Music Video</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="video-container">
-                        <div class="embed-responsive embed-responsive-16by9">
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/eYPkUMgEdlw" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div><!--//video-container-->
-                </div><!--//modal-body-->
-            </div><!--//modal-content-->
-        </div><!--//modal-dialog-->
-    </div><!--//modal-->
+  <section id="promo" class="promo-section section">
+    <div class="container text-center promo-content">
+      <div class="upper-wrapper">
+        <h2 class="headline">You Already Know</h2>
+      </div>
+    </div>
+  </section>
 
-    <!-- Javascript -->
-    <script type="text/javascript" src="plugins/jquery-1.12.3.min.js"></script>
-    <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
-    <script type="text/javascript" src="plugins/back-to-top.js"></script>
-    <script type="text/javascript" src="plugins/vegas/dist/vegas.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+  <section id="gigs" class="gigs-section section">
+    <div class="container">
+      <h2 class="section-title text-center">Upcoming Shows</h2>
+      <!-- no shows start -->
+      <div class="gigs-container no-shows">
+        <h3 class="text-center">No upcoming shows. Check back soon.</h3>
+      </div>
+
+      <!-- single show start -->
+      <!--
+      <div class="gigs-container">
+        <div class="item">
+          <div class="date-label">
+            <div class="number">7</div>
+            <div class="month">Nov</div>
+          </div>
+          <div class="gig-info">
+            <div class="info-content">
+              <h3 class="gig-title">8x10</h3>
+              <div class="meta">
+                <ul class="meta-list list-inline">
+                  <li class="location">
+                    <i class="fa fa-map-marker"></i>
+                    <a href="https://goo.gl/maps/aE6oa1w9TRT2">8x10 - Baltimore, MD</a>
+                  </li>
+                  <li class="time">
+                    <i class="fa fa-clock-o"></i>7:30pm, Wednesday
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="gig-actions">
+            <a class="btn btn-xs btn-ghost-secondary" data-toggle="collapse" href="#info-extra-1" aria-expanded="false" aria-controls="info-extra-1" >More info</a>
+            <a class="btn btn-xs btn-secondary" href="https://www.mt.cm/j-wail-live-bandfeaturing-vince-herman-leftover-salmon-kito-particle">Buy Tickets</a>
+            </div>
+            <div id="info-extra-1" class="collapse info-extra">
+              Join You Already know at the <a href="http://facebook.com">8x10</a> again!
+            </div>
+          </div>
+        </div>
+      </div>
+      -->
+      <div class="gigs-contact text-center">
+        <h4 class="title">Interested in booking?</h4>
+        <a class="btn btn-ghost-primary scrollto" href="#contact">Get in touch</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="music" class="music-section section text-center">
+      <div class="container">
+          <h2 class="section-title">Music</h2>
+          <div class="sc-block center-block">
+              <iframe width="100%" height="350" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/678676449&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+          </div>
+          <ul class="list-inline music-service-icon-links">
+            <li><a href="https://www.youtube.com/channel/UCw5Q0r8O3-LRhwRJL0rgFPQ"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="https://soundcloud.com/you-already-know"><i class="fa fa-soundcloud"></i></a></li>
+            <li><a href="https://open.spotify.com/artist/366gMbRrs2zjK4zHS6abfC?si=kwWkX2hkSHy5tUXsJ_bVDg&nd=1"><i class="fa fa-spotify"></i></a></li>
+          </ul>
+
+      </div>
+  </section>
+
+  <section id="photos" class="photos-section section text-center">
+    <div class="container">
+          <h2 class="section-title">Photos</h2>
+          <div class="row">
+              <div class="item col-12 col-md-6">
+                  <div class="item-inner photos-section-photo photos-section-photo">
+                    <a href="images/hero/hero-1.jpg">
+                      <img class="img-band-photo" src="images/hero/hero-1.jpg">
+                    </a>
+                  </div>
+              </div>
+              <div class="item col-12 col-md-6">
+                  <div class="item-inner photos-section-photo">
+                    <a href="images/hero/hero-1.jpg">
+                      <img class="img-band-photo" src="images/hero/hero-2.jpg">
+                    </a>
+                  </div>
+              </div>
+              <div class="item col-12 col-md-6">
+                  <div class="item-inner photos-section-photo">
+                    <a href="images/hero/hero-1.jpg">
+                      <img class="img-band-photo" src="images/hero/hero-3.jpg">
+                    </a>
+                  </div>
+              </div>
+              <div class="item col-12 col-md-6">
+                  <div class="item-inner photos-section-photo">
+                    <a href="images/hero/hero-1.jpg">
+                      <img class="img-band-photo" src="images/hero/hero-2.jpg">
+                    </a>
+                  </div>
+              </div>
+              <div class="item col-12 col-md-6">
+                  <div class="item-inner photos-section-photo">
+                    <a href="images/hero/hero-1.jpg">
+                      <img class="img-band-photo" src="images/hero/hero-2.jpg">
+                    </a>
+                  </div>
+              </div>
+              <div class="item col-12 col-md-6">
+                  <div class="item-inner photos-section-photo">
+                    <a href="images/hero/hero-1.jpg">
+                      <img class="img-band-photo" src="images/hero/hero-1.jpg">
+                    </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section id="about" class="about-section section text-center">
+    <div class="container">
+      <h2 class="section-title">Band</h2>
+      <div class="section-intro center-block">
+        <p>You Already Know is a project that was born in 2011. Starting at local bars and quickly moving on to play popular Baltimore venues including 8x10, Ottobar, and The Metro Gallery. The group has since supported several national and regional acts and were featured on 98 Rock radio.</p>
+      </div>
+      <div class="members-block">
+        <div class="row">
+          <div class="item col-md-4">
+            <div class="item-inner">
+              <div class="member-profile">
+                <img class="img-responsive" src="images/members/yianni.png" alt="">
+              </div>
+              <div class="member-label">Guitar</div>
+              <h3 class="member-name">Yianni Karavasilis</h3>
+              <div class="member-desc">Crushing lead guitar and rythmic melodies.</div>
+            </div>
+          </div>
+          <div class="item col-md-4">
+            <div class="item-inner">
+              <div class="member-profile">
+                <img class="img-responsive" src="images/members/nik.png" alt="">
+              </div>
+              <div class="member-label">Bass</div>
+              <h3 class="member-name">Nik Kosmas</h3>
+              <div class="member-desc">Bass guitar and soothing vocals.</div>
+            </div>
+          </div>
+          <div class="item col-md-4">
+            <div class="item-inner">
+              <div class="member-profile">
+                <img class="img-responsive" src="images/members/matt.png" alt="">
+              </div>
+              <div class="member-label">Guitar</div>
+              <h3 class="member-name">Matt Winter</h3>
+              <div class="member-desc">Smooth rythms, clean leads, and vocals.</div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="item col-md-4">
+            <div class="item-inner">
+              <div class="member-profile">
+                <img class="img-responsive" src="images/members/bill.png" alt="">
+              </div>
+              <div class="member-label">Saxophone</div>
+              <h3 class="member-name">Vince Szynborski</h3>
+              <div class="member-desc">Sax.</div>
+            </div>
+          </div>
+          <div class="item col-md-4">
+            <div class="item-inner">
+              <div class="member-profile">
+                <img class="img-responsive" src="images/members/bill.png" alt="">
+              </div>
+              <div class="member-label">Drums</div>
+              <h3 class="member-name">Bill Matsos</h3>
+              <div class="member-desc">Drums.</div>
+            </div>
+          </div>
+          <div class="item col-md-4">
+            <div class="item-inner">
+              <div class="member-profile">
+                <img class="img-responsive" src="images/members/ty.png" alt="">
+              </div>
+              <div class="member-label">Keyboards</div>
+              <h3 class="member-name">Ty Bolchoz</h3>
+              <div class="member-desc">E. Piano, Acoustic Piano, Organ & Clavinet</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section section text-center">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="section-intro center-block">Feel free to drop us a line about booking or other opportunities.</div>
+      <div class="contact-block center-block">
+        <div class="row">
+          <div class="item col-12 col-md-6">
+            <div class="item-inner">
+              <div class="icon-holder"><i class="fa fa-calendar-check-o"></i></div>
+              <h4 class="title">Booking</h4>
+              <div class="email"><a href="mailto:matt@youalreadyknow.me">matt@youalreadyknow.me</a></div>
+              <div class="email"><a href="mailto:yianni@youalreadyknow.me">yianni@youalreadyknow.me</a></div>
+            </div>
+          </div>
+          <div class="item col-12 col-md-6">
+            <div class="item-inner">
+              <div class="icon-holder"><i class="fa fa-info-circle"></i></div>
+              <h4 class="title">General</h4>
+              <div class="email"><a href="mailto:info@youalreadyknow.me">info@youalreadyknow.me</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="channels-block">
+      <ul class="channels-list list-inline">
+      <li><a href="#"><img class="icon" src="images/itunes.svg" alt=""></a></li>
+      <li><a href="#"><img class="icon" src="images/vevo.svg" alt=""></a></li>
+      <li><a href="#"><img class="icon" src="images/bandcamp.svg" alt=""></a></li>
+      </ul>
+      </div>-->
+      <div class="social-media-block">
+        <ul class="list-inline social-media-list">
+          <li><a href="https://www.youtube.com/channel/UCw5Q0r8O3-LRhwRJL0rgFPQ"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="https://soundcloud.com/you-already-know"><i class="fa fa-soundcloud"></i></a></li>
+          <li><a href="https://open.spotify.com/artist/366gMbRrs2zjK4zHS6abfC?si=kwWkX2hkSHy5tUXsJ_bVDg&nd=1"><i class="fa fa-spotify"></i></a></li>
+          <li><a href="https://www.facebook.com/YAlreadyK"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/yak_band/"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="plugins/jquery-1.12.3.min.js"></script>
+  <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+  <script type="text/javascript" src="plugins/vegas/dist/vegas.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
