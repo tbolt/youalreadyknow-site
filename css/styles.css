@@ -1066,10 +1066,10 @@ label {
 @media (max-width: 767px) {
 
   .headline {
-    font-size: 7rem;
+    font-size: 4rem;
   }
   #promo {
-    margin-top: -80px;
+    max-height: 225px;
   }
   .header {
     background: rgba(0, 0, 0, 0.9);
@@ -1368,6 +1368,7 @@ body {
 
   /* New custom css */
 #photos {
+  background: #f5f5f5;
 /*  color: rgba(255, 255, 255, 0.75);
   background-color: #040404;*/
 }
