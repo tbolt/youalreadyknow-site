@@ -23,24 +23,4 @@ $(document).ready(function() {
        $('#header').removeClass('header-scrolled');
     }
   });
-
-  /* ======= Vegas Plugin ======= */
-  /* Ref: http://vegas.jaysalvat.com/index.html */
-  $('#promo').vegas({
-    delay: 8000,
-    overlay: 'plugins/vegas/dist/overlays/06.png',
-    color: '#101113',
-    transition: 'zoomOut',
-    transitionDuration: 3000,
-    slides: [
-        { src: 'images/hero/hero-1.jpg' },
-        { src: 'images/hero/hero-2.jpg' },
-        { src: 'images/hero/hero-3.jpg' },
-        // { src: 'images/hero/hero-4.jpg' },
-        // { src: 'images/hero/hero-5.jpg' },
-        // { src: 'images/hero/hero-6.jpg' },
-        // { src: 'images/hero/hero-7.jpg' },
-        // { src: 'images/hero/hero-8.jpg' }
-    ]
-  });
 });
