@@ -235,6 +235,19 @@ label {
 .highlight {
   color: #FFAC46;
 }
+#promo {
+  height: 38vh;
+  width: 100%;
+  background-image: url('../images/hero/new-hero.jpg');
+  background-repeat:no-repeat;
+  background-size: 150%;
+  background-position:center;
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
 #topcontrol {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
@@ -1068,9 +1081,6 @@ label {
   .headline {
     font-size: 4rem;
   }
-  #promo {
-    max-height: 225px;
-  }
   .header {
     background: rgba(0, 0, 0, 0.9);
     padding-top: 5px;
@@ -1195,6 +1205,10 @@ label {
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #promo {
+    height: 66vh;
+    background-size: 100%;
+  }
   .promo-content {
     padding-top: 80px;
   }
@@ -1388,18 +1402,7 @@ body {
   color: #ccc;
 }
 
-#promo {
-  height: 500px;
-  max-width: 100%;
-  background-image: url('../images/hero/new-hero.jpg');
-  background-repeat:no-repeat;
-  background-size: 100%;
-  background-position:center;
-    display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
+
 .img-circle {
   border-radius: 50%;
 }
@@ -1411,3 +1414,4 @@ body {
 .music-row .col-12 {
   padding: 10px;
 }
+
