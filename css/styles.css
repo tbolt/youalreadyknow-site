@@ -620,7 +620,7 @@ label {
 .gigs-section .date-label .month {
   font-size: 12px;
   font-weight: 600;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Overpass Mono', sans-serif;
   color: rgba(255, 255, 255, 0.8);
 }
 .gigs-section .gig-title {
@@ -745,7 +745,7 @@ label {
   top: 0;
   background: #FFAC46;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Overpass Mono', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 12px;
@@ -803,7 +803,7 @@ label {
   padding: 5px 10px;
   background: #040404;
   color: #fff;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Overpass Mono', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
@@ -883,7 +883,7 @@ label {
   font-size: 18px;
   color: #fff;
   margin-bottom: 5px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Overpass Mono', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
   margin-top: 0;
