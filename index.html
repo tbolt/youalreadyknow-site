@@ -57,7 +57,104 @@
       <h2 class="section-title">Music</h2>
       <div class="row music-row">
         <div class="col-12 col-md-6">
-          <iframe width="100%" height="315px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/678676449&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+            <audio id="audio" preload="none" tabindex="0">
+              <source src="songs/dinosaur.mp3" data-track-number="1" />
+              Your browser does not support HTML5 audio.
+            </audio>
+          
+            <div class="player">
+              <div class="large-toggle-btn">
+                <i class="large-play-btn"><span class="screen-reader-text">Large toggle button</span></i>
+              </div>
+              <!-- /.play-box -->          
+              <div class="info-box">
+                <div class="track-info-box">
+                  <div class="track-title-text"></div>
+                  <div class="audio-time">
+                    <span class="current-time">00:00</span> /
+                    <span class="duration">00:00</span>
+                  </div>
+                </div>
+                <!-- /.info-box -->          
+                <div class="progress-box">
+                  <div class="progress-cell">
+                    <div class="progress">
+                      <div class="progress-buffer"></div>
+                      <div class="progress-indicator"></div>
+                    </div>
+                  </div>
+                </div>          
+              </div>
+              <!-- /.progress-box -->          
+              <div class="controls-box">
+                <i class="previous-track-btn disabled"><span class="screen-reader-text">Previous track button</span></i>
+                <i class="next-track-btn"><span class="screen-reader-text">Next track button</span></i>
+              </div>
+              <!-- /.controls-box -->
+          
+            </div>
+            <!-- /.player -->
+          
+            <div class="play-list">
+          
+              <div class="play-list-row" data-track-row="1">
+                <div class="small-toggle-btn">
+                  <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                  1.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="1">Dinosaur</a>
+                </div>
+              </div>
+              <div class="play-list-row" data-track-row="2">
+                <div class="small-toggle-btn">
+                  <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                  2.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="2">Ryan Adams &amp; The Cardinals - Cold Roses</a>
+                </div>
+              </div>
+              <div class="play-list-row" data-track-row="3">
+                <div class="small-toggle-btn">
+                  <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                  3.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="3">The Slackers - Married Girl</a>
+                </div>
+              </div>
+              <div class="play-list-row" data-track-row="4">
+                <div class="small-toggle-btn">
+                  <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                  4.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="4">Blitzen Trapper - Saturday Night</a>
+                </div>
+              </div>
+              <div class="play-list-row" data-track-row="5">
+                <div class="small-toggle-btn">
+                  <i class="small-play-btn"><span class="screen-reader-text">Small toggle button</span></i>
+                </div>
+                <div class="track-number">
+                  5.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="5">The Samples - Feel Us Shaking</a>
+                </div>
+              </div>
+          
+            </div>
         </div>
         <div class="col-12 col-md-6">
           <iframe width="100%" height="315px" src="https://www.youtube.com/embed/qW2m0tgqtd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -295,5 +392,6 @@
   <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="plugins/jquery.scrollTo.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/audio.js"></script>
 </body>
 </html>
