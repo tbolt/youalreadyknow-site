@@ -1411,27 +1411,8 @@ body {
 .player {
   height: 60px;
   position: relative;
-  width: 100%;
-  width: 300px;
+  width: 420px;
   margin: 0 auto;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .player {
-    width: 470px;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1100px) {
-  .player {
-    width: 470px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .player {
-    width: 470px;
-  }
 }
 
 .player .large-toggle-btn {
@@ -1609,7 +1590,6 @@ body {
 }
 
 .play-list .play-list-row .track-title .playlist-track {
-  background-color: #fff;
   border: 0;
   cursor: pointer;
   font-size: 1em;
@@ -1623,43 +1603,33 @@ body {
 }
 
 .play-list .play-list-row .small-toggle-btn {
+  background: #fff;
   border: 1px solid #d9d9d9;
   border-radius: 2px;
   cursor: pointer;
   display: inline-block;
-  height: 25px;
+  height: 30px;
   text-align: center;
   vertical-align: middle;
-  width: 25px;
+  width: 30px;
 }
-.play-list .play-list-row .small-play-btn {
+
+.play-list .play-list-row .small-play-icon {
   background: no-repeat url('../icons/play.svg');
-  background-size: 1em;
-  width: 5px;
-  height: 5px;
+  background-size: 1.7rem;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: 4px;
 }
 
-.play-list .play-list-row .small-toggle-btn .small-play-icon {
-  background: no-repeat url('../icons/play.svg');
-  background-size: 1em;
-  width: 5px;
-  height: 5px;
-}
-
-.play-list .play-list-row .small-toggle-btn .small-play-icon:before {
-  background: no-repeat url('../icons/play.svg');
-  background-size: 1em;
-  width: 5px;
-  height: 5px;
-}
-
-.play-list .play-list-row .small-toggle-btn .small-pause-icon {
-  display: inline-block;
-}
-
-.play-list .play-list-row .small-toggle-btn .small-pause-icon:before {
-  content: "\f04c";
-  font: 0.95em "FontAwesome";
+.play-list .play-list-row .small-pause-icon {
+  background: no-repeat url('../icons/pause.svg');
+  background-size: 1.7rem;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: 4px;
 }
 
 .play-list .play-list-row .track-number {

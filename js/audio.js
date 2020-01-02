@@ -391,11 +391,11 @@ var audioPlayer = function() {
       console.log("hit audio playing...");
       _elements.playerButtons.largeToggleBtn.children[0].className = "large-pause-btn";
 
-      _elements.playerButtons.smallToggleBtn[_currentTrack - 1].children[0].className = "small-pause-btn";
+      _elements.playerButtons.smallToggleBtn[_currentTrack - 1].children[0].className = "small-pause-icon";
     } else {
       _elements.playerButtons.largeToggleBtn.children[0].className = "large-play-btn";
       console.log("audio not playing...");
-      _elements.playerButtons.smallToggleBtn[_currentTrack - 1].children[0].className = "small-play-btn";
+      _elements.playerButtons.smallToggleBtn[_currentTrack - 1].children[0].className = "small-play-icon";
     }
 
     //Update next and previous buttons accordingly
@@ -440,8 +440,8 @@ var audioPlayer = function() {
     _elements.playerButtons.largeToggleBtn.children[0].className = "large-play-btn";
 
     for (var i = 0; i < smallToggleBtn.length; i++) {
-      if (smallToggleBtn[i].children[0].className === "small-pause-btn") {
-        smallToggleBtn[i].children[0].className = "small-play-btn";
+      if (smallToggleBtn[i].children[0].className === "small-pause-icon") {
+        smallToggleBtn[i].children[0].className = "small-play-icon";
       }
     }
   };
