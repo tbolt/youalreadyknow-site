@@ -1396,15 +1396,24 @@ body {
 
 
 /* Audio Player */
+
+.screen-reader-text {
+  /* Reusable, toolbox kind of class */
+  position: absolute;
+  top: -9999px;
+  left: -9999px; 
+}
+
 .show {
   display: inline-block !important;
 }
 
 .player {
   height: 60px;
-  margin: 0 auto;
   position: relative;
-  width: 400px;
+  width: 100%;
+  width: 300px;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1440,51 +1449,54 @@ body {
 }
 
 .player .large-toggle-btn .large-play-icon {
+  background: no-repeat url('../icons/play.svg');
+  background-size: 2em;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
   display: inline-block;
   position: relative;
 }
 
-.player .large-toggle-btn .large-play-icon:before {
-  content: "\f04b";
-  font: 2.5em "FontAwesome";
-}
-
-.player .large-toggle-btn .large-pause-icon {
+.player .large-toggle-btn .large-play-btn {
+  background: no-repeat url('../icons/play.svg');
+  background-size: 2em;
+  width: 25px;
+  height: 25px;
   cursor: pointer;
   display: inline-block;
   position: relative;
 }
 
-.player .large-toggle-btn .large-pause-icon:before {
-  content: "\f04c";
-  font: 2.5em "FontAwesome";
+.player .large-toggle-btn .large-pause-btn {
+  background: no-repeat url('../icons/pause.svg');
+  background-size: 2em;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
 }
+
 
 .player .info-box {
-  bottom: 10px;
-  left: 65px;
-  position: absolute;
-  top: 15px;
 }
 
 .player .info-box .track-info-box {
   float: left;
   font-size: 12px;
   margin: 0 0 6px 0;
-  visibility: hidden;
-  width: 400px;
   *zoom: 1;
 }
 
 .player .info-box .track-info-box .track-title-text {
   display: inline-block;
+  font-size: 2rem;
 }
 
 .player .info-box .track-info-box .audio-time {
   display: inline-block;
   padding: 0 0 0 5px;
-  width: 80px;
 }
 
 .player .info-box .track-info-box:before,
@@ -1611,27 +1623,34 @@ body {
 }
 
 .play-list .play-list-row .small-toggle-btn {
-  background-color: #fff;
   border: 1px solid #d9d9d9;
   border-radius: 2px;
   cursor: pointer;
   display: inline-block;
   height: 25px;
-  margin: 0 auto;
-  overflow: hidden;
-  position: relative;
   text-align: center;
   vertical-align: middle;
   width: 25px;
 }
+.play-list .play-list-row .small-play-btn {
+  background: no-repeat url('../icons/play.svg');
+  background-size: 1em;
+  width: 5px;
+  height: 5px;
+}
 
 .play-list .play-list-row .small-toggle-btn .small-play-icon {
-  display: inline-block;
+  background: no-repeat url('../icons/play.svg');
+  background-size: 1em;
+  width: 5px;
+  height: 5px;
 }
 
 .play-list .play-list-row .small-toggle-btn .small-play-icon:before {
-  content: "\f04b";
-  font: 0.95em "FontAwesome";
+  background: no-repeat url('../icons/play.svg');
+  background-size: 1em;
+  width: 5px;
+  height: 5px;
 }
 
 .play-list .play-list-row .small-toggle-btn .small-pause-icon {
