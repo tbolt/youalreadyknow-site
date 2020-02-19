@@ -309,9 +309,9 @@ var audioPlayer = function() {
    * @param currentTrack The current track number being played.
    * @param playListRows The playlist object.
    **/
-  var _setTrackTitle = function(currentTrack, playListRows) {
+  var _setTrackTitle = function(currentTrack, playListRows) {    
     var trackTitleBox = document.querySelector(".player .info-box .track-info-box .track-title-text");
-    var trackTitle = playListRows[currentTrack - 1].children[2].outerText;
+    var trackTitle = playListRows[currentTrack - 1].children[2].innerText;
 
     trackTitleBox.innerHTML = null;
 
@@ -388,13 +388,10 @@ var audioPlayer = function() {
    **/
   var _updatePlayStatus = function(audioPlaying) {
     if (audioPlaying) {
-      console.log("hit audio playing...");
       _elements.playerButtons.largeToggleBtn.children[0].className = "large-pause-btn";
-
       _elements.playerButtons.smallToggleBtn[_currentTrack - 1].children[0].className = "small-pause-icon";
     } else {
       _elements.playerButtons.largeToggleBtn.children[0].className = "large-play-btn";
-      console.log("audio not playing...");
       _elements.playerButtons.smallToggleBtn[_currentTrack - 1].children[0].className = "small-play-icon";
     }
 
