@@ -13,7 +13,6 @@
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
   <!-- Fonts & Icons -->
-  <link href="https://fonts.googleapis.com/css?family=Overpass+Mono|Montserrat|Space+Mono" rel="stylesheet">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- Styles -->
@@ -52,16 +51,122 @@
     <h2 class="headline">You Already Know</h2>
   </section>
 
+
   <section id="music" class="music-section section text-center">
     <div class="container">
       <h2 class="section-title">Music</h2>
       <div class="row music-row">
         <div class="col-12 col-md-6">
-          <iframe width="100%" height="315px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/678676449&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            <audio id="audio" preload="none" tabindex="0">
+              <source src="songs/dinosaur.mp3" data-track-number="1" />
+              <source src="songs/inner-glow.mp3" data-track-number="2" />
+              <source src="songs/runnin.mp3" data-track-number="3" />
+              <source src="songs/mountain.mp3" data-track-number="4" />
+              <source src="songs/last-shuttle.mp3" data-track-number="5" />
+              Your browser does not support HTML5 audio.
+            </audio>
+            <div class="player">
+              <button type="button" class="large-toggle-btn">
+                <i class="large-play-icon"><span class="screen-reader-text">Large toggle button</span></i>
+              </button><!-- /.play-box -->
+              <div class="info-box">
+                <div class="track-info-box" style="visibility: visible;">
+                  <div class="track-title-text">Dinosaurs</div>
+                  <div class="audio-time">
+                    <span class="current-time">00:00</span> / <span class="duration">05:05</span>
+                  </div>
+                </div><!-- /.info-box -->
+                <div class="progress-box">
+                  <div class="progress-cell">
+                    <div class="progress">
+                      <div class="progress-buffer" style="width: 100%;"></div>
+                      <div class="progress-indicator"></div>
+                    </div>
+                  </div>
+                </div>
+              </div><!-- /.progress-box -->
+              <div class="controls-box">
+                <button type="button" class="previous-track-btn disabled" disabled="">
+                  <i class="previous-track-icon"><span class="screen-reader-text">Previous track button</span></i>
+                </button>
+                <button type="button" class="next-track-btn">
+                  <i class="next-track-icon"><span class="screen-reader-text">Next track button</span></i>
+                </button>
+              </div> <!-- /.controls-box -->
+            </div>
+
+          
+            <div class="play-list text-left">
+              <div class="play-list-row" data-track-row="1">
+                <button type="button" class="small-toggle-btn">
+                  <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                </button>
+                <div class="track-number">
+                  1.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="1" data-track-title="Dinosaurs">Dinosaurs</a>
+                </div>
+              </div>
+              <div class="play-list-row" data-track-row="2">
+                <button type="button" class="small-toggle-btn">
+                  <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                </button>
+                <div class="track-number">
+                  2.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="2" data-track-title="Dinosaurs">Inner Glow</a>
+                </div>
+              </div>
+              <div class="play-list-row" data-track-row="3">
+                <button type="button" class="small-toggle-btn">
+                  <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                </button>
+                <div class="track-number">
+                  3.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="3" data-track-title="Dinosaurs">Runnin'</a>
+                </div>
+              </div>
+              <div class="play-list-row" data-track-row="4">
+                <button type="button" class="small-toggle-btn">
+                    <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>                               
+                </button>
+                <div class="track-number">
+                  4.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="4" data-track-title="Dinosaurs">Mountain of the Jam</a>
+                </div>
+              </div>
+              <div class="play-list-row" data-track-row="5">
+                <button type="button" class="small-toggle-btn">
+                  <i class="small-play-icon"><span class="screen-reader-text">Small toggle button</span></i>
+                </button>
+                <div class="track-number">
+                  5.
+                </div>
+                <div class="track-title">
+                  <a class="playlist-track" href="#" data-play-track="5" data-track-title="Dinosaurs">Last Shuttle</a>
+                </div>
+              </div>
+          
+            </div>
         </div>
+
         <div class="col-12 col-md-6">
-          <iframe width="100%" height="315px" src="https://www.youtube.com/embed/qW2m0tgqtd8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+          <video controls
+              src="/videos/mountain.mp4"
+              poster="/videos/mountain-thumbnail.jpg"
+              preload="meta"
+              width="100%">     
+            Sorry, your browser doesn't support embedded videos, 
+            but don't worry, you can <a href="/videos/mountain.mp4">download it</a> 
+            and watch it with your favorite video player!          
+          </video>
+        </div>
       </div>
       <ul class="list-inline music-service-icon-links">
         <li><a href="https://www.youtube.com/channel/UCw5Q0r8O3-LRhwRJL0rgFPQ"><i class="fa fa-youtube"></i></a></li>
@@ -74,10 +179,10 @@
   <section id="gigs" class="gigs-section section">
     <div class="container">
       <h2 class="section-title text-center">Upcoming Shows</h2>
-      <!-- no shows start -->
+      <!-- no shows start -->      
       <div class="gigs-container no-shows">
         <h3 class="text-center">No upcoming shows. Check back soon.</h3>
-      </div>
+      </div>      
       <!-- no shows end -->
       
       
@@ -131,56 +236,56 @@
               <div class="item col-12 col-md-6">
                   <div class="item-inner photos-section-photo photos-section-photo">
                     <a href="images/photos/band-photo-11.jpg">
-                      <img class="img-band-photo" src="images/photos/band-photo-11.jpg">
+                      <img class="img-band-photo" src="images/photos/band-photo-11.jpg" alt="Photo of Full Band on Stage with Concert Lighting from Directly in Front of Stage">
                     </a>
                   </div>
               </div>
               <div class="item col-12 col-md-6">
                   <div class="item-inner photos-section-photo">
                     <a href="images/photos/band-photo-6.jpg">
-                      <img class="img-band-photo" src="images/photos/band-photo-6.jpg">
+                      <img class="img-band-photo" src="images/photos/band-photo-6.jpg" alt="Photo of Full Band on Stage with Concert Lighting from Left Side of Stage">
                     </a>
                   </div>
               </div>
               <div class="item col-12 col-md-6">
                   <div class="item-inner photos-section-photo">
                     <a href="images/photos/band-photo-3.jpg">
-                      <img class="img-band-photo" src="images/photos/band-photo-3.jpg">
+                      <img class="img-band-photo" src="images/photos/band-photo-3.jpg" alt="Photo of Keyboardist Ty Playing on Stage">
                     </a>
                   </div>
               </div>
               <div class="item col-12 col-md-6">
                   <div class="item-inner photos-section-photo">
                     <a href="images/photos/band-photo-2.jpg">
-                      <img class="img-band-photo" src="images/photos/band-photo-2.jpg">
+                      <img class="img-band-photo" src="images/photos/band-photo-2.jpg" alt="Photo of Drummer Bill Playing the Drums">
                     </a>
                   </div>
               </div>
               <div class="item col-12 col-md-6">
                   <div class="item-inner photos-section-photo">
                     <a href="images/photos/band-photo-7.jpg">
-                      <img class="img-band-photo" src="images/photos/band-photo-7.jpg">
+                      <img class="img-band-photo" src="images/photos/band-photo-7.jpg" alt="Photo of Full Band on Stage with Concert Lighting from Left Side of Stage">
                     </a>
                   </div>
               </div>
               <div class="item col-12 col-md-6">
                   <div class="item-inner photos-section-photo">
                     <a href="images/photos/band-photo-8.jpg">
-                      <img class="img-band-photo" src="images/photos/band-photo-8.jpg">
+                      <img class="img-band-photo" src="images/photos/band-photo-8.jpg" alt="Photo of Bassist Nik Playing Bass and Singing">
                     </a>
                   </div>
               </div>
               <div class="item col-12 col-md-6">
                   <div class="item-inner photos-section-photo">
                     <a href="images/photos/band-photo-10.jpg">
-                      <img class="img-band-photo" src="images/photos/band-photo-10.jpg">
+                      <img class="img-band-photo" src="images/photos/band-photo-10.jpg" alt="Photo of Matt Singing and Playing Guitar">
                     </a>
                   </div>
               </div>
               <div class="item col-12 col-md-6">
                   <div class="item-inner photos-section-photo">
                     <a href="images/photos/band-photo-12.jpg">
-                      <img class="img-band-photo" src="images/photos/band-photo-12.jpg">
+                      <img class="img-band-photo" src="images/photos/band-photo-12.jpg" alt="Photo of Yianni Singing and Playing Guitar, with Matt in Background">
                     </a>
                   </div>
               </div>
@@ -199,7 +304,7 @@
           <div class="item col-md-4">
             <div class="item-inner">
               <div class="member-profile">
-                <img class="img-responsive" src="images/members/yianni.png" alt="">
+                <img class="img-responsive" src="images/members/yianni.png" alt="Band Member Photo of Guitarist Yianni">
               </div>
               <h3 class="member-name">Yianni</h3>
               <div class="member-label">Guitar</div>
@@ -208,7 +313,7 @@
           <div class="item col-md-4">
             <div class="item-inner">
               <div class="member-profile">
-                <img class="img-responsive" src="images/members/nik.png" alt="">
+                <img class="img-responsive" src="images/members/nik.png" alt="Band Member Photo of Bassist Nik">
               </div>
               <h3 class="member-name">Nik</h3>
               <div class="member-label">Bass</div>
@@ -217,7 +322,7 @@
           <div class="item col-md-4">
             <div class="item-inner">
               <div class="member-profile">
-                <img class="img-responsive" src="images/members/matt.png" alt="">
+                <img class="img-responsive" src="images/members/matt.png" alt="Band Member Photo of Guitarist Matt">
               </div>
               <h3 class="member-name">Matt</h3>
               <div class="member-label">Guitar</div>
@@ -228,7 +333,7 @@
           <div class="item col-md-6">
             <div class="item-inner">
               <div class="member-profile">
-                <img class="img-responsive" src="images/members/bill.png" alt="">
+                <img class="img-responsive" src="images/members/bill.png" alt="Band Member Photo of Drummer Bill">
               </div>
               <h3 class="member-name">Bill</h3>
               <div class="member-label">Drums</div>
@@ -237,7 +342,7 @@
           <div class="item col-md-6">
             <div class="item-inner">
               <div class="member-profile">
-                <img class="img-responsive" src="images/members/ty.png" alt="">
+                <img class="img-responsive" src="images/members/ty.png" alt="Band Member Photo of Keyboardist Ty">
               </div>
               <h3 class="member-name">Ty</h3>
               <div class="member-label">Keyboards</div>
@@ -294,5 +399,6 @@
   <script type="text/javascript" src="plugins/bootstrap/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="plugins/jquery.scrollTo.min.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/audio.js"></script>
 </body>
 </html>
