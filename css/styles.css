@@ -1144,8 +1144,7 @@ label {
 .player {
   height: 60px;
   position: relative;
-  width: 420px;
-  margin: 0 auto;
+  max-width: 420px;
 }
 
 .player .large-toggle-btn {
@@ -1310,7 +1309,7 @@ label {
 .play-list {
   display: block;
   margin: 0 auto 20px auto;
-  width: 400px;
+  width: 100%;
 }
 
 .play-list .play-list-row {
@@ -1400,7 +1399,7 @@ label {
 
 @media screen and (max-width: 430px) {
   .player {
-    width: 350px;
+    /* width: 350px; */
   }
   .player .progress-box {
     min-width: 180px;
