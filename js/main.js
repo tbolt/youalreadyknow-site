@@ -1,26 +1,33 @@
-$(document).ready(function() {
+$(document).ready(function () {
   /* ======= Scrollspy ======= */
-  $('body').scrollspy({ target: '#header', offset: 100});
+  $("body").scrollspy({ target: "#header", offset: 100 });
 
   /* ======= ScrollTo ======= */
-  $('a.scrollto').on('click', function(e){
-      //store hash
-      var target = this.hash;
-      e.preventDefault();
+  $("a.scrollto").on("click", function (e) {
+    // Store hash
+    var target = this.hash;
+    e.preventDefault();
 
-  	$('body').scrollTo(target, 800, {offset: -60, 'axis':'y'});
-      //Collapse mobile menu after clicking
-  	if ($('.navbar-collapse').hasClass('in')){
-  		$('.navbar-collapse').removeClass('in').addClass('collapse');
-  	}
+    // Use jQuery animate instead of scrollTo plugin
+    $("html, body").animate(
+      {
+        scrollTop: $(target).offset().top - 60,
+      },
+      800
+    );
+
+    // Collapse mobile menu after clicking
+    if ($(".navbar-collapse").hasClass("show")) {
+      $(".navbar-collapse").removeClass("show").addClass("collapse");
+    }
   });
 
-  /* ======= Fixed Header animation ======= */
-  $(window).on('scroll load', function() {
-    if ($(window).scrollTop() > 0 ) {
-       $('#header').addClass('header-scrolled');
+  /* ======= Fixed Header Animation ======= */
+  $(window).on("scroll load", function () {
+    if ($(window).scrollTop() > 0) {
+      $("#header").addClass("header-scrolled");
     } else {
-       $('#header').removeClass('header-scrolled');
+      $("#header").removeClass("header-scrolled");
     }
   });
 });
